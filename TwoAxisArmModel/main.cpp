@@ -24,13 +24,13 @@ double yEnd(double yStart, double radius, double angle)
 // Calculates min value of angle 1
 double minAngle1(double L) 
 {
-	return acos((200 * 200 + L * L - 210 * 210)/(2 * 200 * L));
+	return acos((200.0 * 200.0 + L * L - 210.0 * 210.0)/(2.0 * 200.0 * L));
 }
 
 // Calculates the max value of angle 1
 double maxAngle1(double L)
 {
-	return acos((200 * 200 + L * L - 310 * 310)/(2 * 200 * L));
+	return acos((200.0 * 200.0 + L * L - 310.0 * 310.0)/(2.0 * 200.0 * L));
 }
 
 int ccc_win_main() 
